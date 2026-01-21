@@ -1,374 +1,379 @@
 /* 전역 스타일 */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Oswald', 'Noto Sans KR', sans-serif;
-    color: #121212;
-    background-color: #fff;
+  font-family: "Oswald", "Noto Sans KR", sans-serif;
+  color: #121212;
+  background-color: #fff;
 }
 
 /* 상단 배너 */
 .Container[data-node-id="1:926"] {
-    position: relative;
-    width: 100%;
-    height: 35px;
+  position: relative;
+  width: 100%;
+  height: 35px;
 }
 
 .Background {
-    position: absolute;
-    background-color: #1a1a1a;
-    height: 35px;
-    left: 0;
-    right: 0;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 40px;
+  position: absolute;
+  background-color: #1a1a1a;
+  height: 35px;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
 }
 
 .Background-content {
-    display: flex;
-    gap: 20px;
-    font-size: 13px;
-    font-weight: 500;
-    color: #ffe512;
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffe512;
 }
 
 .LinkText {
-    font-size: 13px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
 }
 
 .LinkText.right {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .WhiteColorHorizontalDivider {
-    position: absolute;
-    background: white;
-    bottom: 0;
-    height: 2px;
-    left: 82.26%;
-    right: 0;
+  position: absolute;
+  background: white;
+  bottom: 0;
+  height: 2px;
+  left: 82.26%;
+  right: 0;
 }
 
 /* 메인 헤더 */
 .StickyHeader {
-    position: sticky;
-    top: 0;
-    background: black;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    height: 101px;
-    z-index: 100;
+  position: sticky;
+  top: 0;
+  background: black;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  height: 101px;
+  z-index: 100;
 }
 
 .HeaderBlackBox {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 166px;
-    position: relative;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 166px;
+  position: relative;
 }
 
 .Nav {
-    display: flex;
-    gap: 0;
-    height: 40px;
-    align-items: center;
-    position: relative;
+  display: flex;
+  gap: 0;
+  height: 40px;
+  align-items: center;
+  position: relative;
 }
 
 .LinkItem {
-    padding: 0 10px;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    height: 40px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 40px;
 }
 
 .LinkItem.sale {
-    color: #e8368c;
+  color: #e8368c;
 }
 
 .GrayBar {
-    width: 2px;
-    height: 14px;
-    background: rgba(255, 255, 255, 0.3);
+  width: 2px;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 /* 검색 */
 .Search {
-    position: absolute;
-    right: 275px;
-    top: 41px;
-    width: 275px;
-    height: 34px;
-    display: flex;
-    align-items: center;
+  position: absolute;
+  right: 275px;
+  top: 41px;
+  width: 275px;
+  height: 34px;
+  display: flex;
+  align-items: center;
 }
 
 .Input {
-    width: 100%;
-    height: 34px;
-    background: white;
-    border: 2px solid #1969dc;
-    border-radius: 2px;
-    padding: 0 46px;
-    font-size: 12.7px;
-    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 34px;
+  background: white;
+  border: 2px solid #1969dc;
+  border-radius: 2px;
+  padding: 0 46px;
+  font-size: 12.7px;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
 .ReadingGlass {
-    position: absolute;
-    left: 10px;
-    width: 14px;
-    height: 14px;
-    pointer-events: none;
+  position: absolute;
+  left: 10px;
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
 }
 
 .RemoveButton {
-    position: absolute;
-    right: 0;
-    width: 34px;
-    height: 34px;
-    border: none;
-    background: transparent;
-    cursor: pointer;
+  position: absolute;
+  right: 0;
+  width: 34px;
+  height: 34px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }
 
 /* 로고 및 아이콘 */
 .HeadDrMartensLogo {
-    position: absolute;
-    left: 40px;
-    top: 20px;
-    width: 106px;
-    height: 60px;
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  width: 106px;
+  height: 60px;
 }
 
 .HeadDrMartensLogo img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .Link.icon {
-    width: 44px;
-    height: 44px;
-    cursor: pointer;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
 }
 
 .Link.icon img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 /* 메인 슬라이더 */
 .mainslider {
-    position: relative;
-    width: 100%;
-    height: 475px;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 475px;
+  overflow: hidden;
 }
 
 .slider-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .Picture {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .Picture img {
-    width: 100%;
-    height: 101%;
-    object-fit: cover;
+  width: 100%;
+  height: 101%;
+  object-fit: cover;
 }
 
 .Background[data-node-id="1:10"] {
-    position: absolute;
-    background: black;
-    height: 60px;
-    width: 504px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, calc(-50% + 39.5px));
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  background: black;
+  height: 60px;
+  width: 504px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, calc(-50% + 39.5px));
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slide-title {
-    font-size: 40px;
-    font-weight: 500;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 50px;
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 50px;
 }
 
 .Link[data-node-id="1:12"] {
-    position: absolute;
-    bottom: 90px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 254px;
-    height: 48px;
+  position: absolute;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 254px;
+  height: 48px;
 }
 
 .Linkpaints {
-    background: #ffe512;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18.9px;
-    font-weight: bold;
-    color: black;
-    letter-spacing: 1px;
+  background: #ffe512;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18.9px;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 1px;
 }
 
 .ButtonSVG {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    background: transparent;
-    border: none;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
 }
 
 .ButtonSVG.prev {
-    left: 40px;
-    top: 50%;
-    transform: translateY(-50%);
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .ButtonSVG.next {
-    right: 40px;
-    top: 50%;
-    transform: translateY(-50%) rotate(180deg);
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
 }
 
 .slider-dots {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 30px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 30px;
 }
 
 .Button {
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-    background: white;
-    cursor: pointer;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
 }
 
 .Button.active {
-    background: #ffe512;
+  background: #ffe512;
 }
 
 /* Key Items 섹션 */
 .Container.key-items {
-    width: 1280px;
-    margin: 0 auto;
-    padding: 60px 0;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 60px 0;
 }
 
 .section-title {
-    font-size: 25px;
-    font-weight: 500;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .maintab {
-    width: 100%;
+  width: 100%;
 }
 
 /* 카테고리 슬라이더 */
 .swipercarousel.category {
-    overflow: hidden;
-    margin-bottom: 30px;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .swipercarousel.category .Container {
-    display: flex;
-    gap: 25px;
-    padding: 0 30px;
+  display: flex;
+  gap: 25px;
+  padding: 0 30px;
 }
 
 .Group-Link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 140px;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 140px;
+  cursor: pointer;
 }
 
 .Background-Border {
-    width: 142px;
-    height: 142px;
-    border-radius: 50%;
-    background: #e1e1e1;
-    border: 1px solid #e1e1e1;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 22px;
+  width: 142px;
+  height: 142px;
+  border-radius: 50%;
+  background: #e1e1e1;
+  border: 1px solid #e1e1e1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
 }
 
 .Background-Border img {
-    width: 100px;
-    height: 125px;
-    object-fit: contain;
+  width: 100px;
+  height: 125px;
+  object-fit: contain;
 }
 
 .Group-Link p {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* 제품 목록 */
 .swipercarousel.products {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .scroll-container {
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
 .scroll-container::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
-.Group1, .Group2, .Group3, .Group4, .Group5, .Group6 {
-    flex: 0 0 192px;
-    position: relative;
+.Group1,
+.Group2,
+.Group3,
+.Group4,
+.Group5,
+.Group6 {
+  flex: 0 0 192px;
+  position: relative;
 }
 
 .Background[data-node-id*="1:78"],
@@ -377,312 +382,324 @@ body {
 .Background[data-node-id*="1:156"],
 .Background[data-node-id*="1:182"],
 .Background[data-node-id*="1:208"] {
-    position: relative;
-    background: #f3f3f3;
-    height: 255.53px;
-    width: 191.66px;
-    overflow: hidden;
+  position: relative;
+  background: #f3f3f3;
+  height: 255.53px;
+  width: 191.66px;
+  overflow: hidden;
 }
 
 .Background img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .ButtonDialog.quick-view {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    width: 45px;
-    height: 45px;
-    background: white;
-    border-radius: 45px;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 45px;
+  height: 45px;
+  background: white;
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Heading3 {
-    height: 26px;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  height: 26px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .Heading3 .Link {
-    font-size: 14px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
 
 .wishlistbuttoncollection {
-    width: 48px;
-    height: 48px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
+  width: 48px;
+  height: 48px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .price {
-    font-size: 14px;
-    font-weight: bold;
-    color: black;
-    margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  margin-top: 5px;
 }
 
 .nav-button {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    top: 50%;
-    transform: translateY(-50%);
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .nav-button.prev {
-    left: -70px;
+  left: -70px;
 }
 
 .nav-button.next {
-    right: -70px;
+  right: -70px;
 }
 
 /* 푸터 */
 .Footer {
-    background: black;
-    color: white;
-    padding: 0;
-    position: relative;
+  background: black;
+  color: white;
+  padding: 0;
+  position: relative;
 }
 
 .HorizontalBorder {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 20px 360px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 360px;
 }
 
 .HorizontalBorder.top {
-    padding: 0 360px;
-    height: 61px;
-    display: flex;
-    align-items: center;
+  padding: 0 360px;
+  height: 61px;
+  display: flex;
+  align-items: center;
 }
 
 .HorizontalBorder .List {
-    display: flex;
-    align-items: center;
-    gap: 0;
+  display: flex;
+  align-items: center;
+  gap: 0;
 }
 
 .HorizontalBorder .LinkItem,
 .HorizontalBorder .Item {
-    font-size: 14px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    padding: 0 25px;
-    position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  position: relative;
 }
 
 .VerticalDivider {
-    width: 1px;
-    height: 12px;
-    background: rgba(255, 255, 255, 0.15);
-    position: absolute;
-    left: 0;
+  width: 1px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.15);
+  position: absolute;
+  left: 0;
 }
 
 .HorizontalBorder.social {
-    padding: 16px 1200px 16px 0;
-    display: flex;
-    justify-content: flex-end;
+  padding: 16px 1200px 16px 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .HorizontalBorder.social .List {
-    gap: 10px;
+  gap: 10px;
 }
 
 .HorizontalBorder.social .LinkItem {
-    width: 30px;
-    height: 30px;
-    padding: 0;
+  width: 30px;
+  height: 30px;
+  padding: 0;
 }
 
 .HorizontalBorder.social img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .footer-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    padding: 30px 360px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 30px 360px;
 }
 
 .info-section h3 {
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    letter-spacing: -0.5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
 }
 
 .info-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .info-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 13px;
-    padding: 5px 0;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 5px 0;
 }
 
 .info-links a:before {
-    content: '| ';
-    color: rgba(255, 255, 255, 0.15);
-    margin-right: 10px;
+  content: "| ";
+  color: rgba(255, 255, 255, 0.15);
+  margin-right: 10px;
 }
 
 .company-info {
-    grid-column: 1 / 2;
-    padding: 30px 0;
+  grid-column: 1 / 2;
+  padding: 30px 0;
 }
 
 .company-info h4 {
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    letter-spacing: -0.5px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
 }
 
 .company-info p {
-    font-size: 14px;
-    color: #828282;
-    line-height: 20px;
-    margin: 5px 0;
+  font-size: 14px;
+  color: #828282;
+  line-height: 20px;
+  margin: 5px 0;
 }
 
 .copyright {
-    font-size: 14px;
-    color: #828282;
-    text-align: left;
-    padding: 20px 360px;
-    letter-spacing: 0.7px;
+  font-size: 14px;
+  color: #828282;
+  text-align: left;
+  padding: 20px 360px;
+  letter-spacing: 0.7px;
 }
 
 .copyright strong {
-    color: white;
+  color: white;
 }
 
 /* 반응형 디자인 */
 @media (max-width: 1440px) {
-    .HeaderBlackBox {
-        padding: 0 40px;
-    }
+  .HeaderBlackBox {
+    padding: 0 40px;
+  }
 
-    .Container.key-items {
-        width: 90%;
-    }
+  .Container.key-items {
+    width: 90%;
+  }
 
-    .HorizontalBorder {
-        padding: 20px 40px;
-    }
+  .HorizontalBorder {
+    padding: 20px 40px;
+  }
 
-    .footer-info {
-        padding: 30px 40px;
-    }
+  .footer-info {
+    padding: 30px 40px;
+  }
 
-    .copyright {
-        padding: 20px 40px;
-    }
+  .copyright {
+    padding: 20px 40px;
+  }
 }
 
 @media (max-width: 1024px) {
-    .Nav {
-        gap: 10px;
-        font-size: 14px;
-    }
+  .Nav {
+    gap: 10px;
+    font-size: 14px;
+  }
 
-    .Search {
-        width: 200px;
-        right: 180px;
-    }
+  .Search {
+    width: 200px;
+    right: 180px;
+  }
 
-    .Group-Link {
-        width: 120px;
-    }
+  .Group-Link {
+    width: 120px;
+  }
 
-    .Background-Border {
-        width: 120px;
-        height: 120px;
-    }
+  .Background-Border {
+    width: 120px;
+    height: 120px;
+  }
 }
 
 @media (max-width: 768px) {
-    .HeaderBlackBox {
-        flex-direction: column;
-        height: auto;
-        padding: 20px;
-    }
+  .HeaderBlackBox {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
 
-    .Nav {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .Nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    .Search {
-        position: relative;
-        right: auto;
-        top: auto;
-        margin: 20px 0;
-    }
+  .Search {
+    position: relative;
+    right: auto;
+    top: auto;
+    margin: 20px 0;
+  }
 
-    .mainslider {
-        height: 300px;
-    }
+  .mainslider {
+    height: 300px;
+  }
 
-    .slide-title {
-        font-size: 24px;
-    }
+  .slide-title {
+    font-size: 24px;
+  }
 
-    .swipercarousel.category .Container {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-    }
+  .swipercarousel.category .Container {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
 
-    .footer-info {
-        grid-template-columns: 1fr;
-    }
+  .footer-info {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 480px) {
-    .Background-content {
-        flex-direction: column;
-        gap: 5px;
-        font-size: 11px;
-    }
+  .Background-content {
+    flex-direction: column;
+    gap: 5px;
+    font-size: 11px;
+  }
 
-    .LinkText {
-        font-size: 11px;
-    }
+  .LinkText {
+    font-size: 11px;
+  }
 
-    .Nav .LinkItem {
-        font-size: 12px;
-        padding: 5px;
-    }
+  .Nav .LinkItem {
+    font-size: 12px;
+    padding: 5px;
+  }
 
-    .Container.key-items {
-        width: 100%;
-        padding: 30px 20px;
-    }
+  .Container.key-items {
+    width: 100%;
+    padding: 30px 20px;
+  }
+}
+/* POP UP */
+.popup {
+  position: fixed;
+  z-index: 99999;
+  background: white;
+  width: 550px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: red;
+  border-radius: 4px;
 }
